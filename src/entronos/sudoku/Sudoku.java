@@ -15,19 +15,24 @@ public class Sudoku {
 {
     
 }
-    
+     /**
+     * @param metodo para iniciar el sudoku
+     */    
 public void inicializar()
 {
 }
 @Override
+//metodo to String para el resultado final
 public String toString()
 {
 String resultadoFinal = "";
 return resultadoFinal;
 }
+//metodo para introducir los numeros de la fila y la colunma
 public void modificarElemento(int fila, int columna, int elemento) throws SudokuException
 {
 }
+//metod para eliminar el numero de la fila y la columna
 public void vaciarElemento(int fila, int columna)
 {
 }
