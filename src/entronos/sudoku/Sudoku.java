@@ -36,21 +36,26 @@ public void modificarElemento(int fila, int columna, int elemento) throws Sudoku
 public void vaciarElemento(int fila, int columna)
 {
 }
+//metodo para comprobar la fila
 private boolean comprobarFila(int fila, int elemento)
 {
 boolean resultado = true;
 return resultado;
 }
+//metodo para comprobar la columna 
 private boolean comprobarColumna(int columna, int elemento)
 {
 boolean resultado = true;
 return resultado;
 }
+//metodo que compruba el cuadrodado donde se meten los numeros
 private boolean comprobarCuadrante(int fila, int columna, int elemento)
 {
 boolean resultado = true;
 return resultado;
 }
+//metodo para insertar los numeros en la fila y la columna
+    
 private boolean puedoInsertar(int fila, int columna, int elemento)
 {
 boolean resultado = false;
